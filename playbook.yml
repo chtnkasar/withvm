@@ -5,5 +5,5 @@
    tasks:
            - name: print
              copy:
-                  content: "this is done by jenkins 1"
+                  content: "this is done by jenkins 2"
                   dest: /home/ansible/jen.txt
