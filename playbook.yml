@@ -4,5 +4,6 @@
    #become: true
    tasks:
            - name: print
-             debug:
-                     msg: "this playbook is triggered by jenkins"
+             copy:
+                  content: "this is done by jenkins"
+                  dest: /home/ansible/jen.txt
