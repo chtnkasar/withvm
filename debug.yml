@@ -1,0 +1,8 @@
+---
+ - hosts: byhn
+   remote_user: ansible
+   #become: true
+   tasks:
+           - name: print
+             debug:
+                     msg: "this playbook is triggered by jenkins"
